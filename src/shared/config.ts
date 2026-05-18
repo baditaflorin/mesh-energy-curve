@@ -1,6 +1,9 @@
 export const appConfig = {
   appName: "mesh-energy-curve",
   storagePrefix: "mesh-energy-curve",
+  description:
+    "Peer-to-peer meeting energy meter. Each phone runs a 0–100 slider; the rolling 10-minute average curve and min/max band are visible on every phone in the room.",
+  accentHex: "#FFD24A",
   version: __APP_VERSION__,
   commit: __GIT_COMMIT__,
   repositoryUrl: "https://github.com/baditaflorin/mesh-energy-curve",
