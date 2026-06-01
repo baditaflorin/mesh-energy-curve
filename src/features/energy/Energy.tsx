@@ -189,7 +189,9 @@ export function Energy({ roomId, initialEnergy, onEnergyChange }: Props) {
   return (
     <div className="energy-stage">
       <div className="energy-hud">
-        <span>{peerCount} phones</span>
+        <span>
+          {peerCount} {peerCount === 1 ? "phone" : "phones"}
+        </span>
         <span>·</span>
         <span>avg {roomAvg !== null ? Math.round(roomAvg) : "–"}</span>
       </div>
